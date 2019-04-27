@@ -1,0 +1,10 @@
+D:\netproject\upacp_demo_510\upacp_demo_app\upacp_demo_app\bin\upacp_demo_app.dll
+D:\netproject\upacp_demo_510\upacp_demo_app\upacp_demo_app\bin\upacp_demo_app.pdb
+D:\netproject\upacp_demo_510\upacp_demo_app\upacp_demo_app\obj\Debug\ResolveAssemblyReference.cache
+D:\netproject\upacp_demo_510\upacp_demo_app\upacp_demo_app\obj\Debug\upacp_demo_app.dll
+D:\netproject\upacp_demo_510\upacp_demo_app\upacp_demo_app\obj\Debug\upacp_demo_app.pdb
+D:\svn\02-QuanqudaoTeam\37-开发包\05-控件\NET Version SDK\upacp_demo_app\upacp_demo_app\bin\upacp_demo_app.dll
+D:\svn\02-QuanqudaoTeam\37-开发包\05-控件\NET Version SDK\upacp_demo_app\upacp_demo_app\bin\upacp_demo_app.pdb
+D:\svn\02-QuanqudaoTeam\37-开发包\05-控件\NET Version SDK\upacp_demo_app\upacp_demo_app\obj\Debug\upacp_demo_app.csprojResolveAssemblyReference.cache
+D:\svn\02-QuanqudaoTeam\37-开发包\05-控件\NET Version SDK\upacp_demo_app\upacp_demo_app\obj\Debug\upacp_demo_app.dll
+D:\svn\02-QuanqudaoTeam\37-开发包\05-控件\NET Version SDK\upacp_demo_app\upacp_demo_app\obj\Debug\upacp_demo_app.pdb

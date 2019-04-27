@@ -1,0 +1,4 @@
+C:\Users\pridas\Documents\Visual Studio 2010\Projects\upacp_sdk_net\upacp_sdk_net\bin\upacp_sdk_net.dll
+C:\Users\pridas\Documents\Visual Studio 2010\Projects\upacp_sdk_net\upacp_sdk_net\bin\upacp_sdk_net.pdb
+C:\Users\pridas\Documents\Visual Studio 2010\Projects\upacp_sdk_net\upacp_sdk_net\obj\Release\upacp_sdk_net.dll
+C:\Users\pridas\Documents\Visual Studio 2010\Projects\upacp_sdk_net\upacp_sdk_net\obj\Release\upacp_sdk_net.pdb

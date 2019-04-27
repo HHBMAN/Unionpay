@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F3AE3893-0CAB-46B6-B99D-39F491494025}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>upacp_demo_app</RootNamespace>
+    <AssemblyName>upacp_demo_app</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.1.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.84.0.0, Culture=neutral, PublicKeyToken=1b03e6acf1164f73">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\机构接入需做改动\机构接入需做改动.txt" />
+    <Content Include="bin\BouncyCastle.Crypto.dll" />
+    <Content Include="bin\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="bin\log4net.dll" />
+    <Content Include="demo\api_05_app\BackRcvResponse.aspx" />
+    <Content Include="demo\api_05_app\Form_6_2_AppConsume.aspx" />
+    <Content Include="demo\api_05_app\Form_6_3_ConsumeUndo.aspx" />
+    <Content Include="demo\api_05_app\Form_6_4_Refund.aspx" />
+    <Content Include="demo\api_05_app\Form_6_5_Query.aspx" />
+    <Content Include="demo\api_05_app\Form_7_2_FileTransfer.aspx" />
+    <Content Include="demo\api_05_app\Form_6_6_1_AppPreauth.aspx" />
+    <Content Include="demo\api_05_app\Form_6_6_2_PreauthUndo.aspx" />
+    <Content Include="demo\api_05_app\Form_6_6_3_PreauthFinish.aspx" />
+    <Content Include="demo\api_05_app\Form_6_6_4_PreauthFinishUndo.aspx" />
+    <Content Include="demo\api_05_app\FrontRcvResponse.aspx" />
+    <Content Include="demo\api_05_app\VerifyAppData.aspx" />
+    <Content Include="pages\api_05_app\consume.aspx" />
+    <Content Include="pages\api_05_app\consume_intro.htm" />
+    <Content Include="pages\api_05_app\consume_undo.aspx" />
+    <Content Include="pages\api_05_app\introduction.htm" />
+    <Content Include="pages\api_05_app\preauth.aspx" />
+    <Content Include="pages\api_05_app\preauth_finish.aspx" />
+    <Content Include="pages\api_05_app\preauth_finish_undo.aspx" />
+    <Content Include="pages\api_05_app\preauth_intro.htm" />
+    <Content Include="pages\api_05_app\preauth_undo.aspx" />
+    <Content Include="pages\api_05_app\query.aspx" />
+    <Content Include="pages\api_05_app\refund.aspx" />
+    <Content Include="pages\api_05_app\special_use_preauth.htm" />
+    <Content Include="pages\api_05_app\file_transfer.aspx" />
+    <Content Include="pages\api_05_app\special_use_purchase.htm" />
+    <Content Include="pages\api_05_app\encryptCerUpdateQuery.aspx" />
+    <Content Include="pages\more_faq.htm" />
+    <Content Include="pages\dev_faq.htm" />
+    <Content Include="pages\api_05_app\readme.txt" />
+    <Content Include="static\demo.css" />
+    <Content Include="static\demo.js" />
+    <Content Include="static\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="static\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="static\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="static\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="static\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="static\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="static\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="static\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="static\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="static\images\ui-icons_222222_256x240.png" />
+    <Content Include="static\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="static\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="static\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="static\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="static\jquery-1.11.2.min.js" />
+    <Content Include="static\jquery-ui.min.css" />
+    <Content Include="static\jquery-ui.min.js" />
+    <Content Include="static\subpage.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="index_05_app.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="demo\api_05_app\BackRcvResponse.aspx.cs">
+      <DependentUpon>BackRcvResponse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="demo\api_05_app\Form_6_2_AppConsume.aspx.cs">
+      <DependentUpon>Form_6_2_AppConsume.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="demo\api_05_app\Form_6_3_ConsumeUndo.aspx.cs">
+      <DependentUpon>Form_6_3_ConsumeUndo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="demo\api_05_app\Form_6_4_Refund.aspx.cs">
+      <DependentUpon>Form_6_4_Refund.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="demo\api_05_app\Form_6_5_Query.aspx.cs">
+      <DependentUpon>Form_6_5_Query.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="demo\api_05_app\Form_7_2_FileTransfer.aspx.cs">
+      <DependentUpon>Form_7_2_FileTransfer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="demo\api_05_app\Form_6_6_1_AppPreauth.aspx.cs">
+      <DependentUpon>Form_6_6_1_AppPreauth.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="demo\api_05_app\Form_6_6_2_PreauthUndo.aspx.cs">
+      <DependentUpon>Form_6_6_2_PreauthUndo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="demo\api_05_app\Form_6_6_3_PreauthFinish.aspx.cs">
+      <DependentUpon>Form_6_6_3_PreauthFinish.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="demo\api_05_app\Form_6_6_4_PreauthFinishUndo.aspx.cs">
+      <DependentUpon>Form_6_6_4_PreauthFinishUndo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="demo\api_05_app\FrontRcvResponse.aspx.cs">
+      <DependentUpon>FrontRcvResponse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="demo\api_05_app\VerifyAppData.aspx.cs">
+      <DependentUpon>VerifyAppData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="upacp_sdk_net\com\unionpay\acp\sdk\AcpService.cs" />
+    <Compile Include="upacp_sdk_net\com\unionpay\acp\sdk\BigNum.cs" />
+    <Compile Include="upacp_sdk_net\com\unionpay\acp\sdk\CertUtil.cs" />
+    <Compile Include="demo\api_05_app\DemoUtil.cs" />
+    <Compile Include="upacp_sdk_net\com\unionpay\acp\sdk\SDKConfig.cs" />
+    <Compile Include="upacp_sdk_net\com\unionpay\acp\sdk\SDKUtil.cs" />
+    <Compile Include="upacp_sdk_net\com\unionpay\acp\sdk\SecurityUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\对账文件样例\802310048993424_20150905.zip" />
+    <None Include="assets\机构接入需做改动\acp_test_sign_inst.pfx" />
+    <None Include="assets\测试环境证书\acp_test_enc.cer" />
+    <None Include="assets\测试环境证书\acp_test_middle.cer" />
+    <None Include="assets\测试环境证书\acp_test_root.cer" />
+    <None Include="assets\测试环境证书\acp_test_sign.pfx" />
+    <None Include="assets\生产环境证书\acp_prod_enc.cer" />
+    <Content Include="log4net.config" />
+    <None Include="assets\生产环境证书\acp_prod_middle.cer" />
+    <None Include="assets\生产环境证书\acp_prod_root.cer" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\测试环境配置文件\" />
+    <Folder Include="assets\生产环境配置文件\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>8080</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51638/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
